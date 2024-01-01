@@ -3,6 +3,10 @@
  */
 public class DamkaBoard {
 	public static void main(String[] args) {
-		//// Put your code here
+		int damka = 4;
+		String line = "* ";
+		while (damka > 1) {
+			System.out.println(line * damka);
+		}
 	}
 }

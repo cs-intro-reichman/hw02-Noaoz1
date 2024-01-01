@@ -6,6 +6,5 @@
  */
 public class OneOfEachStats1 {
 	public static void main (String[] args) {
-		just trying to push this
 	}
 }
