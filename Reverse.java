@@ -6,13 +6,14 @@ import str.string;
  */
 public class Reverse {
 	public static void main (String[] args) {
-		String a = "abc";
+		String a = //(args[0]);
 		String flip = "";
-		for (int i = (str.length(a)-1) ; i == 0 ; i--){
-			flip = flip +  str.charAt(i);
+		int l = a.length();
+		for (int i = (l-1) ; i == 0 ; i--){
+			flip = flip + a.charAt(i);
 		}
 		char b;
-		b =  str.charAt((str.length(flip))/2+1);
+		b =  flip.charAt((flip.length()-1)/2);
 		System.out.println(flip);
 		System.out.println("The middle character is" + b);
 		}

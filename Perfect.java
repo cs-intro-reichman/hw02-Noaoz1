@@ -3,14 +3,17 @@
  */
 public class Perfect {
 	public static void main (String[] args) {
-		int a = 6;
+		int a = Integer.parseInt(args[0]);
 		int divisor = a - 1;
 		int sum = 0;
 		String AllDivisor = "";
 		while (divisor > 0){
 			if (a % divisor == 0) {
+				if (AllDivisor != ""){
+					AllDivisor = AllDivisor + "+";
+				}
 				sum = sum + divisor;
-				AllDivisor = AllDivisor + divisor + "+";
+				AllDivisor = AllDivisor + divisor;
 			}
 			divisor = divisor - 1;
 		}
