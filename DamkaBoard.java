@@ -3,7 +3,7 @@
  */
 public class DamkaBoard {
 	public static void main(String[] args) {
-		int damka = 6;//Integer.parseInt(args[0]);
+		int damka = Integer.parseInt(args[0]);
 		int count = 0;
 		for (int i = damka; i != 0; i--) {
 			System.out.println();
