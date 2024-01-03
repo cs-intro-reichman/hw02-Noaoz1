@@ -6,7 +6,7 @@ import str.string;
  */
 public class Reverse {
 	public static void main (String[] args) {
-		String a = //(args[0]);
+		String a = (args[0]);
 		String flip = "";
 		int l = a.length();
 		for (int i = (l-1) ; i == 0 ; i--){
